@@ -39,6 +39,7 @@ module.exports = {
     }
   },
   module: {
+    unknownContextCritical : false,
     rules: [
       ...(config.dev.useEslint ? [createLintingRule()] : []),
       {

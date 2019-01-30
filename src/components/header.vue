@@ -6,7 +6,11 @@
 </template>
 <script>
 import add from '@/utils/add.js';
+
 export default {
-  name: 'vHeader'
+  name: 'vHeader',
+  created () {
+      
+  }
 }
 </script>

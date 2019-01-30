@@ -15,7 +15,8 @@ export default {
     },
     name: 'about',
     mounted () {
-        add(2, 5)
+        console.log(this.$route)
+        
     }
 }
 </script>

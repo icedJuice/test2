@@ -22,7 +22,7 @@
             <div >
                 我就试试行不行
             </div>
-            <div >
+            <div @click="jump">
                 我就试试行不行
             </div>
         </v-scroll>
@@ -41,7 +41,17 @@ export default {
         'v-scroll': vscroll
     },
     mounted () {
-        add(1, 2)
+
+    },
+    methods: {
+        jump() {
+            this.$router.push({
+                name: 'about',
+                params: {
+                    name: 'abuot'
+                }
+            })
+        }
     }
 }
 </script>
