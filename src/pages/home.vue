@@ -3,28 +3,7 @@
         <v-header></v-header>
         home
         <v-scroll>
-            <div >
-                我就试
-                试行不行
-            </div>
-            <div >
-                我就试试行不行
-            </div>
-            <div >
-                我就试试行不行
-            </div>
-            <div >
-                我就试试行不行
-            </div>
-            <div >
-                我就试试行不行
-            </div>
-            <div >
-                我就试试行不行
-            </div>
-            <div @click="jump">
-                我就试试行不行
-            </div>
+            
         </v-scroll>
     </div>
 </template>
